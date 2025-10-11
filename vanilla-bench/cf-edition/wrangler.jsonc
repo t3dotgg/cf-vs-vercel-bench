@@ -6,10 +6,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "vanilla-ssr-cf",
   "main": "worker.js",
-  "compatibility_date": "2025-03-01",
+  "compatibility_date": "2025-10-01",
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "minify": true,
   "observability": {
     "enabled": true
   }

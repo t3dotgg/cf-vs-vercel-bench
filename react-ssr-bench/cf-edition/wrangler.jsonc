@@ -6,10 +6,14 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "react-ssr-cf",
   "main": "worker.js",
-  "compatibility_date": "2025-03-01",
+  "compatibility_date": "2025-10-01",
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "minify": true,
+  "define": {
+    "process.env.NODE_ENV": "'production'"
+  },
   "observability": {
     "enabled": true
   }

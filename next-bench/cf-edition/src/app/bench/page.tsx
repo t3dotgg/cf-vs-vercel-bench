@@ -1,5 +1,7 @@
 import ComplexComponent from "./complex-component";
 
+export const dynamic = "force-dynamic";
+
 export default async function ComplexPage() {
   console.log("rendering", Date.now());
 
